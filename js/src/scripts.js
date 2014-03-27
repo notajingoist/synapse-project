@@ -33,7 +33,7 @@ var SITE = {
 
 		//green
 		this.one = {
-			'color': '#abbf60',
+			'color': 'rgba(171,191,96, 0.5)',
 			'id': 'one',
 			'range': 10,
 			'factor': 1,
@@ -43,7 +43,7 @@ var SITE = {
 
 		//brown
 		this.two = {
-			'color': '#403934',
+			'color': 'rgba(64,57,52, 0.2)',
 			'id': 'two',
 			'range': 10,
 			'factor': 1,
@@ -313,7 +313,7 @@ var SITE = {
 
 				//alert("hey");
 				this.swarmOptions[i].range += this.swarmOptions[i].inc;
-
+				this.swarmOptions[i].factor += 0.2;
 				// var otherOne = (i+1) % 3;
 				// var otherOtherOne = (i+2) % 3;
 				// console.log(i + "," + otherOne + "," + otherOtherOne);
@@ -340,6 +340,7 @@ var SITE = {
 
 				setTimeout(function() {
 					that.swarmOptions[i].range -= this.swarmOptions[i].inc;
+					this.swarmOptions[i].factor -= 0.2;
 					that.updateSwarm(that.swarmOptions[i]);
 					console.log(that.swarmOptions[i].range);
 					console.log("decreasing swarms");

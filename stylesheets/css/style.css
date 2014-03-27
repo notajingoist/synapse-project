@@ -109,21 +109,6 @@ body {
   background-color: none;
 }
 
-/* line 14, ../sass/_content.scss */
-#one {
-  opacity: 0.5;
-}
-
-/* line 18, ../sass/_content.scss */
-#two {
-  opacity: 0.2;
-}
-
-/* line 22, ../sass/_content.scss */
-#three {
-  opacity: 1;
-}
-
 /* line 26, ../sass/_content.scss */
 #bigCanvas {
   background-color: none;
