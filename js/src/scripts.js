@@ -37,7 +37,8 @@ var SITE = {
 			'id': 'one',
 			'range': 10,
 			'factor': 1,
-			'rotate': -30
+			'rotate': -30,
+			'inc': 100
 		}
 
 		//brown
@@ -46,7 +47,8 @@ var SITE = {
 			'id': 'two',
 			'range': 10,
 			'factor': 1,
-			'rotate': 30
+			'rotate': 30,
+			'inc': 300
 		}
 
 		//orange
@@ -55,7 +57,8 @@ var SITE = {
 			'id': 'three',
 			'range': 10,
 			'factor': 1,
-			'rotate': 30
+			'rotate': 30,
+			'inc': 30
 		}
 
 		this.swarmOptions = [this.one, this.two, this.three];//, this.four, this.five];
@@ -309,7 +312,7 @@ var SITE = {
 				// 	that.drawAllSwarms();
 
 				//alert("hey");
-				this.swarmOptions[i].range += 100;
+				this.swarmOptions[i].range += this.swarmOptions[i].inc;
 
 				// var otherOne = (i+1) % 3;
 				// var otherOtherOne = (i+2) % 3;
@@ -336,7 +339,7 @@ var SITE = {
 				var randDuration = Math.floor((Math.random()*3000)+3000);
 
 				setTimeout(function() {
-					that.swarmOptions[i].range -= 100;
+					that.swarmOptions[i].range -= this.swarmOptions[i].inc;
 					that.updateSwarm(that.swarmOptions[i]);
 					console.log(that.swarmOptions[i].range);
 					console.log("decreasing swarms");
