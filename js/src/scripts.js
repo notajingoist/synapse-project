@@ -46,7 +46,7 @@ var SITE = {
 			'id': 'two',
 			'range': 10,
 			'factor': 1,
-			'rotate': 30,
+			'rotate': 0,
 			'inc': 100,
 			'factorinc': 0.2,
 			'fullcolor': '#403934'
