@@ -1,0 +1,26 @@
+{
+  "name": "synapse-project",
+  "version": "0.0.0",
+  "description": "03-362 Cellular Neuroscience - Synapse Project: Attentional Effects on Neuronal Firing - An Interactive Visualization",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/notajingoist/synapse-project.git"
+  },
+  "keywords": [
+    "attention",
+    "neuron"
+  ],
+  "author": "jing-xiao",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/notajingoist/synapse-project/issues"
+  },
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~3.5.1"
+  }
+}
