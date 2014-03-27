@@ -11,7 +11,6 @@ In my project, the viewer’s eye movement serves as a representation of where h
 
 At arbitrary time intervals, various stimuli are presented on screen (the “receptive field”). If the user happens to be attending to a particular area of the screen when a stimulus appears at that same attended location, the swarm of dots corresponding to that type of stimulus (related by color in my visualization) exhibit an enhanced response. Each class of dots (based on color) vaguely represents the activity recorded from those cells (simple cells that respond strongly to stimuli in one particular orientation) that encode the corresponding visual stimuli (the color is simply a convenient indicator for the user to recognize which dots correspond to which stimuli). The way I visually express this enhanced response is by increasing the number of dots and increasing the speed at which they move. One detail that I tried to reflect was the contrast-gain model, which predicts that attention causes greater increases in response at low contrast than at high contrast [4], as high-contrast stimuli are already at the saturation point on the contrast-response function.
 While my project does not specifically model the exact firing rate increases that occur as a result of attention, it does serve as a general artistic reflection of the way attention influences neural activity in areas like V4.
-References
 
 ===
 
