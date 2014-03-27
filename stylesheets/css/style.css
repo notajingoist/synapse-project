@@ -109,7 +109,7 @@ body {
   background-color: none;
 }
 
-/* line 26, ../sass/_content.scss */
+/* line 14, ../sass/_content.scss */
 #bigCanvas {
   background-color: none;
   height: 100%;
@@ -118,7 +118,7 @@ body {
   width: 100%;
 }
 
-/* line 34, ../sass/_content.scss */
+/* line 22, ../sass/_content.scss */
 #inputCanvas {
   bottom: 0;
   position: absolute;
@@ -126,7 +126,7 @@ body {
   z-index: 1000;
 }
 
-/* line 41, ../sass/_content.scss */
+/* line 29, ../sass/_content.scss */
 #responseCanvas {
   background-color: none;
   height: 100%;
@@ -135,7 +135,7 @@ body {
   width: 100%;
 }
 
-/* line 49, ../sass/_content.scss */
+/* line 37, ../sass/_content.scss */
 #stimuliCanvas {
   background-color: none;
   height: 100%;
