@@ -314,11 +314,11 @@ var SITE = {
 				// var otherOne = (i+1) % 3;
 				// var otherOtherOne = (i+2) % 3;
 				// console.log(i + "," + otherOne + "," + otherOtherOne);
-				// if  (!this.swarmOptions[otherOne].range == 10) {
-				// 	this.swarmOptions[otherOne].range *= 0.8;
+				// if  (this.swarmOptions[otherOne].range > 10) {
+				// 	this.swarmOptions[otherOne].range -= 100;
 				// }
-				// if  (!this.swarmOptions[otherOtherOne].range == 10) {
-				// 	this.swarmOptions[otherOtherOne].range *= 0.8;
+				// if  (this.swarmOptions[otherOtherOne].range > 10) {
+				// 	this.swarmOptions[otherOtherOne].range -= 100;
 				// }
 
 				this.updateSwarm(this.swarmOptions[i]);
