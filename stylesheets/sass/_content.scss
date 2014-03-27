@@ -1,0 +1,45 @@
+/* @group canvas */
+
+body {
+	background-color: #83a49a;
+}
+
+#one,
+#two,
+#three {
+	position: absolute;
+	background-color: none;
+}
+
+#bigCanvas {
+	background-color: none;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+#inputCanvas {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	z-index: 1000;
+}
+
+#responseCanvas {
+	background-color: none;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+#stimuliCanvas {
+	background-color: none;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+/* @end */
