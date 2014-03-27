@@ -1,7 +1,7 @@
 synapse-project
 ===============
 ####03-362 Cellular Neuroscience<br>Synapse Project: Attentional Effects on Neuronal Firing (An Interactive Visualization)
-**Check it out (on Chrome!): http://synapse-project.herokuapp.com/**
+**Link (view on Chrome): http://synapse-project.herokuapp.com/**
 
 I chose the option of developing an artistic or musical representation of the synapse in action, using any media. Specifically, I created a web-based interactive visual simulation of the effects of attention on neuronal firing. Several studies I looked at discuss the way in which visual attention modulates communication in neural circuits by increasing neuronal firing and synchrony, thereby increasing sensitivity of neurons in areas like V4 [2].
 
